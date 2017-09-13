@@ -61,6 +61,7 @@ body
 		justify-content: center
 		margin: 0
 		border-bottom: 1px solid #f3f3f3
+		padding-left: 0
 		li
 			padding: 21px 12.5px
 			position: relative
@@ -253,6 +254,112 @@ body
 	.category-right
 		background: url(../img/cat-img-2.jpg) center no-repeat
 		margin-left: 15px
+
+.products
+	margin-top: 80px
+	.products-title
+		>div
+			text-align: center
+			max-width: 548px
+			margin: 0 auto
+			position: relative
+			&::after
+				content: ''
+				height: 1px
+				width: 170px
+				left: 50%
+				bottom: -30px
+				background-color: #ebebeb
+				position: absolute
+				transform: translateX(-50%)
+		h2
+			font-size: 31px
+			color: #363636
+			text-transform: uppercase
+			font-family: raleway-regular, sans-serif
+			margin-bottom: 10px
+		p
+			color: #959595
+			font-size: 14px
+			line-height: 20px
+
+.products-slider
+	margin-top: 70px
+	.goods
+		display: flex
+		justify-content: space-between
+		text-align: center
+		font-family: roboto-black, sans-serif
+		text-transform: uppercase
+		font-weight: 900
+		color: #363636
+		flex-wrap: wrap
+		.img
+			min-height: 353px
+			min-width: 260px
+		h2
+			color: #363636
+			font-size: 16px
+			margin-top: 30px
+			margin-bottom: 5px
+		p
+			font-size: 18px
+			span
+				color: #d7d7d7
+				text-decoration: line-through
+				font-weight: 700
+				font-size: 14px
+				font-family: roboto-bold, sans-serif
+				margin-right: 15px
+			&.sale
+				color: #e5493a
+	.goods-item-1
+		.img
+			background: url(../img/products-1.jpg) left no-repeat
+			background-size: cover
+	.goods-item-2
+		.img
+			background: url(../img/products-2.jpg) left no-repeat
+			background-size: cover
+	.goods-item-3
+		.img
+			background: url(../img/products-3.jpg) left no-repeat
+			background-size: cover
+	.goods-item-4
+		.img
+			background: url(../img/products-4.jpg) left no-repeat
+			background-size: cover
+	.carousel-control-next, 
+	.carousel-control-prev
+		width: 30px
+		height: 30px
+		top: auto
+		bottom: -50px
+	.carousel-control-prev
+		left: 46.5%
+		position: absolute
+		&::after
+			content: ''
+			width: 1px
+			height: 100%
+			position: absolute
+			background-color: #ebebeb
+			right: -8px
+	.carousel-control-next
+		right: 46.5%
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon
+		background-image: none
+		width: 40px
+		height: 40px
+		.fa
+			color: #e1e1e1
+			font-size: 30px
+			width: 40px
+			height: 40px
+			line-height: 40px
+			&:hover
+				color: #e5493e
 
 
 
